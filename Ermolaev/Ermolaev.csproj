@@ -58,6 +58,21 @@
     <Compile Include="TestNaDebila.xaml.cs">
       <DependentUpon>TestNaDebila.xaml</DependentUpon>
     </Compile>
+    <Compile Include="TestNaDebila2.xaml.cs">
+      <DependentUpon>TestNaDebila2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TestNaDebila3.xaml.cs">
+      <DependentUpon>TestNaDebila3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TestNaDebila4.xaml.cs">
+      <DependentUpon>TestNaDebila4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TestNaDebila5.xaml.cs">
+      <DependentUpon>TestNaDebila5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TestNaDebila6.xaml.cs">
+      <DependentUpon>TestNaDebila6.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -71,6 +86,26 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="TestNaDebila.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TestNaDebila2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TestNaDebila3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TestNaDebila4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TestNaDebila5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TestNaDebila6.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

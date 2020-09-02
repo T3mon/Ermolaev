@@ -15,24 +15,23 @@ using System.Windows.Shapes;
 namespace Ermolaev
 {
     /// <summary>
-    /// Interaction logic for TestNaDebila.xaml
+    /// Логика взаимодействия для TestNaDebila3.xaml
     /// </summary>
-    public partial class TestNaDebila : Window
+    public partial class TestNaDebila3 : Window
     {
-        public TestNaDebila()
+        public TestNaDebila3()
         {
             InitializeComponent();
         }
-
         private void FirstYes_Click(object sender, RoutedEventArgs e)
         {
 
             MessageBox.Show("Molodec");
             this.Close();
-            TestNaDebila2 testNaDebila2 = new TestNaDebila2();
-                testNaDebila2.ShowDialog();
-                
-            
+            TestNaDebila4 testNaDebila4 = new TestNaDebila4();
+            testNaDebila4.ShowDialog();
+
+
 
 
 

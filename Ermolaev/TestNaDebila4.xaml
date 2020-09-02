@@ -1,0 +1,24 @@
+﻿<Window x:Class="Ermolaev.TestNaDebila4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ermolaev"
+        mc:Ignorable="d"
+        Title="TestNaDebila4" Height="450" Width="800" MaxHeight="450" MaxWidth="800" Background="#FF1E1E1E">
+    <Grid>
+        <Label Content="4. У трёх маляров был брат Иван, а у Ивана братьев не было. Такое возможно?" Foreground="WhiteSmoke" RenderTransformOrigin="0.5,0.5" Width="754" Margin="34,199,4,130">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="31.07"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="49.024"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Button x:Name="FirstYes" Content="Да" Height="30" Width="50" Margin="638,52,0,0" Click="FirstYes_Click" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Button x:Name="FirstNo"  Content ="Нет" Height="30" Width="50" Margin="453,62,0,0" Click="FirstNo_Click" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+
+    </Grid>
+</Window>

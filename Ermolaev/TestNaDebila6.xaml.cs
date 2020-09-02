@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,24 +16,25 @@ using System.Windows.Shapes;
 namespace Ermolaev
 {
     /// <summary>
-    /// Interaction logic for TestNaDebila.xaml
+    /// Логика взаимодействия для TestNaDebila6.xaml
     /// </summary>
-    public partial class TestNaDebila : Window
+    public partial class TestNaDebila6 : Window
     {
-        public TestNaDebila()
+        public TestNaDebila6()
         {
             InitializeComponent();
         }
-
         private void FirstYes_Click(object sender, RoutedEventArgs e)
         {
 
-            MessageBox.Show("Molodec");
+            MessageBox.Show("Molodec, Ty proshel nash Test");
+            //----Только не удаляйте пж((
+            Process.Start("https://dp.vgorode.ua/reference/psykhoterapyia/101124-dnepropetrovskaia-klynycheskaia-psykhyatrycheskaia-bolnytsa");
+
             this.Close();
-            TestNaDebila2 testNaDebila2 = new TestNaDebila2();
-                testNaDebila2.ShowDialog();
-                
             
+
+
 
 
 
