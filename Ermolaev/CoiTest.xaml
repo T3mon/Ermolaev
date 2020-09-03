@@ -13,7 +13,7 @@
         </Grid.ColumnDefinitions>
         <Label Content="/6" Margin="52,0,0,382" FontSize="16" Grid.Column="1"></Label>
         <Label Name="PageNumberLb" Content="1" Margin="40.333,0,36,382" FontSize="16" Grid.Column="1"/>
-        <Label Content="Какие огурцы сажал певец на брезентовом поле?" Name="QuestionLb" Margin="0,52,0,302" Grid.ColumnSpan="2" />
+        <Label Content="Какие огурцы сажал певец на брезентовом поле?" Name="QuestionLb" Margin="0,52,0,302" Grid.ColumnSpan="2" FontSize="16" />
         <RadioButton GroupName="AnswersGroup" Name="AnswerRb1" Margin="0,168,65.667,167" FontSize="20" Checked="Answer1_Checked">железные</RadioButton>
         <RadioButton GroupName="AnswersGroup" Name="AnswerRb2" Margin="0,257,65.667,92" FontSize="20" Checked="Answer2_Checked">золотые</RadioButton>
         <RadioButton GroupName="AnswersGroup" Name="AnswerRb3" Margin="0,352,60.667,0" FontSize="20" Checked="Anserw3_Checked">алюминиевые</RadioButton>
