@@ -80,17 +80,6 @@ namespace Ermolaev
                         Correct = 2
                     });
             Questions.Add(
-                new Question
-                {
-                    QuestionNumber = 5,
-                    _Question = "Переименования ГАРИНА И ГИПЕРБОЛОИДОВ в КИНО первый барабанщик группы Олег Валинский (на фото слева)" +
-                " не дождался: его забрали в армию. Служил он на Кубе.Интересна его дальнейшая судьба.Знаете,кто он сегодня ? ",
-                    Answer1 = "Посол России на Кубе,конечно",
-                    Answer2 = "Крупный чиновник в одной из госкомпаний",
-                    Answer3 = "Известный американский художник",
-                    Correct = 2
-                });
-            Questions.Add(
                     new Question
                     {
                         QuestionNumber = 6,
@@ -130,7 +119,7 @@ namespace Ermolaev
         private void updatePage()
         {
             PageNumberLb.Content = user.QuestionNumber + 1;
-            if (user.QuestionNumber == 6)
+            if (user.QuestionNumber == 5)
             {
                 MessageBox.Show(user.HasPassed(user.Score) ? "вы прошли" : "вы не прошли");
             }
@@ -148,6 +137,7 @@ namespace Ermolaev
         {
             MainWindow taskWindow = new MainWindow();
             taskWindow.Show();
+            this.Close();
         }
 
         private void Answer1_Checked(object sender, RoutedEventArgs e) => user.ChosenAnswer = 1;
