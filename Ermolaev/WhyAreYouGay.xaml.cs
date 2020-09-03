@@ -69,20 +69,6 @@ namespace Ermolaev
                     }
                 case 7:
                     {
-                        question.Content = "обнимаешься с друзьями парнями?";
-                        btnMinus.Content = "ты меня слушаешь?";
-                        btnPlus.Content = "дыа";
-                        break;
-                    }
-                case 8:
-                    {
-                        question.Content = "можно подсяду?";
-                        btnMinus.Content = "я с тобой больше говорю";
-                        btnPlus.Content = "дыа";
-                        break;
-                    }
-                case 9:
-                    {
                         if (gayMetr < -3)
                             answer = "u rnt gay";
                         else if (gayMetr > 3)
