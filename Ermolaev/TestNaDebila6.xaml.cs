@@ -32,12 +32,6 @@ namespace Ermolaev
             Process.Start("https://dp.vgorode.ua/reference/psykhoterapyia/101124-dnepropetrovskaia-klynycheskaia-psykhyatrycheskaia-bolnytsa");
 
             this.Close();
-            
-
-
-
-
-
         }
 
         private void FirstNo_Click(object sender, RoutedEventArgs e)
