@@ -75,8 +75,8 @@ namespace Ermolaev
                             answer = "u r gay";
                         else
                             answer = "u r norm";
-
                         MessageBox.Show(answer);
+                        this.Close();
                         break;
                     }
 

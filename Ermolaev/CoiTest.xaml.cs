@@ -122,6 +122,7 @@ namespace Ermolaev
             if (user.QuestionNumber == 6)
             {
                 MessageBox.Show(user.HasPassed(user.Score) ? "вы прошли" : "вы не прошли");
+                this.Close();
             }
             else
             {
