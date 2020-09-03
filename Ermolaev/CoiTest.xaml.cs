@@ -129,7 +129,7 @@ namespace Ermolaev
 
         private void updatePage()
         {
-
+            PageNumberLb.Content = user.QuestionNumber + 1;
             if (user.QuestionNumber == 6)
             {
                 MessageBox.Show(user.HasPassed(user.Score) ? "вы прошли" : "вы не прошли");
