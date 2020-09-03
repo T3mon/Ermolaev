@@ -12,5 +12,15 @@
         </Label>
         <Button Name="btnMinus" Content="в глаз" HorizontalAlignment="Left" VerticalAlignment="Top" Width="172" Margin="169,224,0,0" Height="42" Click="BtnMinus_Click"/>
         <Button  Name="btnPlus" Content="не в глаз" HorizontalAlignment="Left" VerticalAlignment="Top" Width="174" Margin="437,224,0,0" Height="42" Click="BtnPlus_Click"/>
+        <Button  x:Name="btnPlus_Copy" Content="не знаю" HorizontalAlignment="Left" VerticalAlignment="Top" Width="174" Margin="304,143,0,0" Height="42" Click="BtnPlu222s_Click" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="30.706"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
     </Grid>
 </Window>

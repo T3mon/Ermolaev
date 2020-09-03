@@ -94,6 +94,12 @@ namespace Ermolaev
             gayMetr--;
             Update();
         }
+
+        private void BtnPlu222s_Click(object sender, RoutedEventArgs e)
+        {
+            Update();
+
+        }
     }
 }
 
