@@ -24,5 +24,23 @@ namespace Ermolaev
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            //GayTest taskWindow = new GayTest();
+            //taskWindow.Show();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            TestNaDebila taskWindow = new TestNaDebila();
+            taskWindow.Show();
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            CoiTest taskWindow = new CoiTest();
+            taskWindow.Show();
+        }
     }
 }

@@ -55,6 +55,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="CoiTest.xaml.cs">
+      <DependentUpon>CoiTest.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CoiModels\Question.cs" />
     <Compile Include="TestNaDebila.xaml.cs">
       <DependentUpon>TestNaDebila.xaml</DependentUpon>
     </Compile>
@@ -73,6 +77,14 @@
     <Compile Include="TestNaDebila6.xaml.cs">
       <DependentUpon>TestNaDebila6.xaml</DependentUpon>
     </Compile>
+    <Compile Include="CoiModels\User.cs" />
+    <Compile Include="WhyAreYouGay.xaml.cs">
+      <DependentUpon>WhyAreYouGay.xaml</DependentUpon>
+    </Compile>
+    <Page Include="CoiTest.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -109,6 +121,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="WhyAreYouGay.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -136,5 +152,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

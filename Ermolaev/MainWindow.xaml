@@ -6,7 +6,15 @@
         xmlns:local="clr-namespace:Ermolaev"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Background="#FF1E1E1E">
+        <Image Source="http://2.bp.blogspot.com/-JnyiFjC4zPc/VUHZFMgkjhI/AAAAAAAAsws/YS4ytS9zQDk/s1600/136a2805dfc47c56a6707726a47ae9a3_i-602.jpg" Margin="0,81,535,202" ></Image>
+        <Label Margin="72,234,606,140" FontSize="20" Background="{x:Null}" Foreground="#FFE9EAE1">тест на гея</Label>
+        <Image Source="https://i.ytimg.com/vi/U1n90j6agk4/maxresdefault.jpg" Margin="259,84,286,205" ></Image>
+        <Button Margin="41,284,586,47" Background="#FF3D95FF" Click="Button_Click">Go!</Button>
+        <Button Margin="294,284,333,47" Content="Go!" Background="#FFF53B32" Click="Button_Click_1"/>
+        <Image Source="https://img.playbuzz.com/image/upload/ar_1.5,c_crop/q_auto:good,f_auto,fl_lossy,w_640,c_limit,e_sharpen/v1599028510/et5zwelbw29xme0phsdk.png" Margin="535,84,10,205" />
+        <Label Margin="294,234,333,140" FontSize="20" Background="{x:Null}" Foreground="#FFE9EAE1" Content="тест на интелект"/>
+        <Label Margin="566,234,34,140" FontSize="20" Background="{x:Null}" Foreground="#FFE9EAE1" Content="тест на знание цоя"/>
+        <Button Margin="580,284,47,47" Content="Go!" Background="#FF80E869" Click="Button_Click_2"/>
     </Grid>
 </Window>
