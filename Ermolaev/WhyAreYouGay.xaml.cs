@@ -89,8 +89,8 @@ namespace Ermolaev
                             answer = "u r gay";
                         else
                             answer = "u r norm";
+
                         MessageBox.Show(answer);
-                        this.Close();
                         break;
                     }
 
@@ -107,12 +107,6 @@ namespace Ermolaev
         {
             gayMetr--;
             Update();
-        }
-
-        private void BtnPlu222s_Click(object sender, RoutedEventArgs e)
-        {
-            Update();
-
         }
     }
 }
