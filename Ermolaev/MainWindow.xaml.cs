@@ -27,8 +27,8 @@ namespace Ermolaev
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            //GayTest taskWindow = new GayTest();
-            //taskWindow.Show();
+            WhyAreYouGay taskWindow = new WhyAreYouGay();
+            taskWindow.Show();
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
