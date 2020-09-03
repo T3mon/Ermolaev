@@ -19,6 +19,7 @@ namespace Ermolaev
     /// </summary>
     public partial class WhyAreYouGay : Window
     {
+        string answer;
         int gayMetr = 0;
         int questionNum = 1;
         public WhyAreYouGay()
@@ -64,6 +65,18 @@ namespace Ermolaev
                         question.Content = "любишь яблочный мартини?";
                         btnMinus.Content = "самый гейский напиток в баре";
                         btnPlus.Content = "дыа";
+                        break;
+                    }
+                case 7:
+                    {
+                        if (gayMetr < -3)
+                            answer = "u rnt gay";
+                        else if (gayMetr > 3)
+                            answer = "u r gay";
+                        else
+                            answer = "u r norm";
+
+                        MessageBox.Show(answer);
                         break;
                     }
 
